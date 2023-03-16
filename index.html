@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e22b6f9380.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Speedy Spikes</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <header id="header">
+      <nav id="nav-bar">
+        <img src="sprint-logo.png" alt="" id="header-img" />
+        <ul>
+          <li class="push-m-right">Speedy Spikes</li>
+          <!-- link these to parts of the page -->
+          <li ><a class="nav-link" href="#features"></a>Features</li>
+          <li ><a class="nav-link" href="#how"></a>How it's Made</li>
+          <li ><a class="nav-link" href="#shopping"></a>Shopping</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- intro + email grab -->
+    <div class="intro">
+      <!-- action attributes go somewhere! -->
+      <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+        <h2 class="title">Custom Made Masterpieces</h2>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+        <input
+          type="submit"
+          name="submit"
+          id="submit"
+          value="START CUSTOMIZING"
+        />
+      </form>
+    </div>
+
+    <!-- section 2 -->
+    <div class="section-2" id="features">
+      <!-- icons -->
+      <div class="grid">
+        <div class="icon"><i class="fas fa-fire-flame-simple"></i></div>
+        <div>
+          <h2 class="s2-headings">c1ontent</h2>
+          <p class="s2-descriptions">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non,
+            tempora pariatur. Labore, repellendus ea a accusamus quasi esse eius
+            maiores vitae molestias nisi corrupti magni. Asperiores velit error
+            corporis molestias?
+          </p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="icon"><i class="fas fa-regular fa-truck-fast"></i></div>
+        <div>
+          <h2 class="s2-headings">c2ontent</h2>
+          <p class="s2-descriptions">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non,
+            tempora pariatur. Labore, repellendus ea a accusamus quasi esse eius
+            maiores vitae molestias nisi corrupti magni. Asperiores velit error
+            corporis molestias?
+          </p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="icon"><i class="fas fa-regular fa-clipboard-list"></i></div>
+        <div>
+          <h2 class="s2-headings">c3ontent</h2>
+          <p class="s2-descriptions">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non,
+            tempora pariatur. Labore, repellendus ea a accusamus quasi esse eius
+            maiores vitae molestias nisi corrupti magni. Asperiores velit error
+            corporis molestias?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- video clickable -->
+    <div class="container" id="how">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/OUR0Ef6nv-8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen id="video"
+      ></iframe>
+    </div>
+
+    <!-- cards -->
+    <div class="pricing-container" id="shopping">
+      <div class="card">
+        <h4 class="card-title">Distance Spikes</h4>
+        <img
+          src="images/zoomx-dragoy-track-field-distance-spikes_h.jpg"
+          alt=""
+          class="card-img"
+        />
+        <input type="submit" value="SHOP" name="submit" id="submit-shop" />
+      </div>
+      <div class="card">
+        <h4 class="card-title">Sprint Spikes</h4>
+        <img
+          src="images/air-zoom-maxfly-track-field-sprinting-spikes_h.jpg"
+          alt=""
+          class="card-img"
+        />
+        <input type="submit" value="SHOP" name="submit" id="submit-shop" />
+      </div>
+      <div class="card">
+        <h4 class="card-title">Field Spikes</h4>
+        <img
+          src="images/transparent-field-spike.png"
+          alt=""
+          class="card-img"
+        />
+        <input class="field" type="submit" value="SHOP" name="submit" id="submit-shop" />
+      </div>
+    </div>
+    <!-- footer -->
+
+    <footer>
+      <div class="foot">
+        <div>
+          <p><a href="">Privacy </a><a href="">Terms </a><a href="">Contract </a></p>
+        </div>
+
+        <div>
+          <p>Copyright 2023, Speedy Spikes</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
